@@ -6,26 +6,40 @@
     android:layout_height="match_parent">
 
     <TextView
-
         android:id="@+id/textView"
-        android:layout_width="255dp"
-        android:layout_height="wrap_content"
-
-        android:layout_marginEnd="4dp"
-        android:text="T"
+        android:layout_width="318dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="16dp"
+        android:text="Hello world my name is Emanuel  Rono, you can find me anywhere"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.819" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="119dp"
-        android:layout_height="123dp"
+        android:layout_width="126dp"
+        android:layout_height="110dp"
         android:layout_marginTop="28dp"
+        android:adjustViewBounds="true"
+        android:layout_margin="8dp"
         app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="457dp"
+        android:layout_height="2dp"
+        android:background="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.011" />
 </androidx.constraintlayout.widget.ConstraintLayout>
